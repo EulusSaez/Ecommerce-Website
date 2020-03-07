@@ -1,0 +1,302 @@
+@font-face{
+    src: url(../font/Poppins/Poppins-Regular.otf);
+    font-family: 'Poppins';
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Georgia;
+    color: #222;
+}
+
+.navbar {
+    padding: 8rem;
+    font-family: 'Poppins';
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Poppins';
+}
+
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+#buy{
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#buy img{
+    height: 400px;
+    width: 95%;
+    margin-left: 50px;
+}
+
+#contact{
+    padding-bottom: 2%;
+}
+
+#team img{
+    height: 400px;
+    width: 100%;
+}
+a {
+    padding: 1rem;
+}
+
+.welcome{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+h5{
+    padding-top: 1rem;
+}
+
+hr.my-4{
+    padding-bottom: 5%;
+    border-top: 1px solid #d5d5d5;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px){
+    social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px){  
+    .carousel-caption{
+        top: 45%;
+    }
+    
+    .carousel-caption h1{
+        font-size: 350%;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size: 200%;
+    }
+    social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px){
+    .carousel-caption{
+        top: 40%;
+    }
+    
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .display-4{
+        font-size: 160%;
+    }
+    social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+.checked{
+    color: orange;
+}
+
+.icon-md{
+    margin-top: 5%;
+    font-size: 3em;
+    padding-bottom: .2em;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+.fa-user{
+    color: rgb(84, 35, 161);
+}
+.fa-truck{
+    color: rgb(24, 114, 24);
+}
+.fa-star{
+    color: orange;
+}
+.fa-clock{
+    color: gray;
+}
+
+.login{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.check{
+    color: lightgreen;
+}
+
+.contact{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.welcome img{
+    padding: 3rem;
+    display: block;
+}
+
+.cart{
+    margin: 3rem;
+}
+.cart-background{
+    background-image: url(../img/Leather.jpg);
+    background-size: cover;
+}
+.info{
+    text-align: center;
+}
+.aside{
+    text-align: center;
+}
+.table{
+    text-align: center;
+}
+.payment{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.payment{
+    padding-bottom: 0;
+}
+.feedback{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 0em;
+}
+
+.thanks h1{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:center;
+}
+
+.thanks-btn{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.login{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
